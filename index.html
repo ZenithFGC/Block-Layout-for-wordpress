@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Тестовое Задание</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <div class="modal">
+            <div class="modal__background"></div>
+            <div class="container">
+                <div class="window modal__order">
+                    <span class="btn btn_close"></span>
+                    <h2 class="modal__title">заявка на ПЭ LB-52U ГОСТ</h2>
+                    <form name="modal" class="modal__form modal__form_order">
+                        <input type="text" name="name" placeholder="Имя" class="modal__input">
+                        <input type="tel" name="telephone" placeholder="Телефон" class="modal__input">
+                        <input type="email" name="E-mail" placeholder="Email" class="modal__input">
+                        <input type="checkbox" id="permission" value="permission" class="modal__form_check">
+                        <span class="checkLabel" for="permission">Даю согласие на обработку персональных данных</span>
+                        <input type="submit" class="btn btn_order">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <header class="header">
+            <div class="container header__container">
+                <span class="electrode">ПЭ LB-52U ГОСТ</span>
+                <div class="bestseller">
+                    <img src="imgs/IconBolt.png" alt="" class="bestseller__image">
+                    <span class="bestseller__text">хит продаж</span>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container main__container main-crop">
+                <div class="offering">
+                    <div class="offering__price">
+                        <div class="offering__price_name offering_name">
+                            <div class="offering__price_name-icon"></div>
+                            <span class="offering__price_name-text">Цена(без НДС)</span>
+                        </div>
+                        <div class="offering__price_number">от 107 ₽/кг</div>
+                    </div>
+                    <div class="offering__diameter">
+                        <div class="offering__diameter_name offering_name">
+                            <div class="offering__diameter_name-icon"></div>
+                            <span class="offering__diameter_name-text">Диаметр</span>
+                        </div>
+                        <div class="offering__diameter_buttons">
+                            <button class="btn btn-offering" id="0">2,5 мм</button>
+                            <button class="btn btn-offering" id="1">3 мм</button>
+                            <button class="btn btn-offering" id="2">4 мм</button>
+                            <button class="btn btn-offering" id="3">5 мм</button>
+                        </div>
+                    </div>
+                    <div class="offering__package">
+                        <div class="offering__package_name offering_name">
+                            <div class="offering__package_name-icon"></div>
+                            <span class="offering__package_name-text">Упаковка</span>
+                        </div>
+                        <div class="offering__package_buttons">
+                            <button class="btn btn-offering"id="4">1 кг</button>
+                            <button class="btn btn-offering"id="5">1,5 кг</button>
+                            <button class="btn btn-offering"id="6">2,5 кг</button>
+                            <button class="btn btn-offering"id="7">5 кг</button>
+                        </div>
+                    </div>
+                    <div class="offering__type">
+                        <div class="offering__type_name offering_name">
+                            <div class="offering__type_name-icon"></div>
+                            <span class="offering__type_name-text">Тип электродов Э50А</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn_request">оформить заявку</button>
+            </div>
+            <img src="imgs/productPicture.png" alt="" class="product">
+        </main>
+        <script src="index.js"></script>
+        
+    </body>
+    
+
+</html>
+    
